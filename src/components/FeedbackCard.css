@@ -1,0 +1,42 @@
+.feedback-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.service-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.star-rating .filled {
+  color: #f5c518;
+}
+
+.star-rating .empty {
+  color: #ccc;
+}
+
+.comment {
+  font-style: italic;
+  color: #555;
+  margin: 0 0 12px 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #777;
+}

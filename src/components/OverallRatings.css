@@ -1,0 +1,37 @@
+.overall-ratings-card {
+  background-color: #f9f9f9;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.overall-ratings-card h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.overall-ratings-card ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.overall-ratings-card li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 1.1em;
+}
+
+.overall-ratings-card .service {
+  font-weight: 500;
+  color: black;
+}
+
+.overall-ratings-card .average-score {
+  font-weight: bold;
+  color: #0056b3;
+}
